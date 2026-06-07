@@ -1,0 +1,28 @@
+{
+	"required": true,
+	"package": "eu.epicdark.externalteleport.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AvatarRendererMixin",
+		"CameraMixin",
+		"ClientPacketListenerMixin",
+      	"EntityMixin",
+		"EntityRenderDispatcherMixin",
+		"GameRendererMixin",
+		"GuiMixin",
+		"ItemInHandRendererMixin",
+		"LevelRendererMixin",
+		"LocalPlayerMixin",
+		"MinecraftMixin",
+		"MultiPlayerGameModeMixin",
+		"OptionsMixin",
+
+		"GameRendererAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

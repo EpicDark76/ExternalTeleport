@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "externalteleport",
+	"version": "${version}",
+	"name": "ExternalTeleport",
+	"description": "A mod about fancily teleporting yourself. Meant for roleplaying",
+	"authors": [
+		"EpicDark76"
+	],
+	"contact": {
+		"homepage": "https://github.com/EpicDark76/ExternalTeleport",
+		"sources": "https://github.com/EpicDark76/ExternalTeleport",
+		"issues": "https://github.com/EpicDark76/ExternalTeleport/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/externalteleport/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"eu.epicdark.externalteleport.ExternalTeleport"
+		],
+		"modmenu": [
+			"eu.epicdark.externalteleport.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "externalteleport.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "externalteleport.classtweaker",
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"cloth-config": ">=26.1.154"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "key.externalteleport.toggle_mode": "Toggle Mode",
+  "key.externalteleport.teleport": "Teleport",
+
+  "msg.externalteleport.no_spectator": "Cannot enter Preparing State when in spectator!",
+  "msg.externalteleport.enabled": "Entered Preparing State. Teleport with %s",
+  "msg.externalteleport.disabled": "Canceled Teleport",
+  "msg.externalteleport.teleport": "Teleported to camera",
+  "msg.externalteleport.no_prepare": "Cannot teleport without Preparing State. Enter with %s",
+  "msg.externalteleport.no_camera": "No camera found!",
+  "msg.externalteleport.no_permission": "No permission to execute command!",
+
+  "text.autoconfig.externalteleport.title": "ExternalTeleport Config",
+  "text.autoconfig.externalteleport.option.command": "Teleport Command",
+  "text.autoconfig.externalteleport.option.command.@Tooltip": "Command to execute when teleporting\nCan contain $x $y $z $yaw $pitch",
+  "text.autoconfig.externalteleport.option.playSound": "Play Teleport Sound",
+  "text.autoconfig.externalteleport.option.playSound.@Tooltip": "This sound is only CLIENT-SIDE!\nTo play sounds serverside, integrate into custom command (or function) and execute that instead.",
+  "text.autoconfig.externalteleport.option.showHand": "Show Hand",
+  "text.autoconfig.externalteleport.option.showPlayer": "Show Player"
+}
