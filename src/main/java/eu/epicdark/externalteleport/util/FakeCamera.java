@@ -29,6 +29,7 @@ public class FakeCamera extends AbstractClientPlayer {
         setId(id);
         getAbilities().mayfly = true;
         getAbilities().mayBuild = false;
+        onUpdateAbilities();
         input = new KeyboardInput(ExternalTeleport.MC.options);
     }
 
@@ -52,6 +53,7 @@ public class FakeCamera extends AbstractClientPlayer {
     @Override
     public void tick() {
         input.tick();
+        getAbilities().mayfly = true;
         super.tick();
     }
 

@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(MultiPlayerGameMode.class)
 public class MultiPlayerGameModeMixin {
 
-    // Prevents interacting with blocks when allowInteract is disabled.
+    // Prevents interacting with blocks
     @Inject(method = "useItemOn", at = @At("HEAD"), cancellable = true)
     private void onInteractBlock(LocalPlayer player, InteractionHand hand, BlockHitResult hitResult, CallbackInfoReturnable<InteractionResult> cir) {
         if (ExternalTeleport.enabled) {
@@ -26,7 +26,7 @@ public class MultiPlayerGameModeMixin {
         }
     }
 
-    // Prevents interacting with entities when allowInteract is disabled, and prevents interacting with self.
+    // Prevents interacting with entities
     @Inject(method = "interact", at = @At("HEAD"), cancellable = true)
     private void onInteractEntity(
             Player player,

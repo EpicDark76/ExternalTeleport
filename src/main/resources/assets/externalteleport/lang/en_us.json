@@ -16,5 +16,7 @@
   "text.autoconfig.externalteleport.option.playSound": "Play Teleport Sound",
   "text.autoconfig.externalteleport.option.playSound.@Tooltip": "This sound is only CLIENT-SIDE!\nTo play sounds serverside, integrate into custom command (or function) and execute that instead.",
   "text.autoconfig.externalteleport.option.showHand": "Show Hand",
-  "text.autoconfig.externalteleport.option.showPlayer": "Show Player"
+  "text.autoconfig.externalteleport.option.showPlayer": "Show Player",
+
+  "color.externalteleport": "4725be"
 }

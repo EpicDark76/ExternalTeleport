@@ -12,6 +12,7 @@
 		"GuiMixin",
 		"ItemInHandRendererMixin",
 		"LevelRendererMixin",
+		"LivingEntityMixin",
 		"LocalPlayerMixin",
 		"MinecraftMixin",
 		"MultiPlayerGameModeMixin",

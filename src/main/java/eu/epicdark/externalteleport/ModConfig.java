@@ -19,7 +19,7 @@ public class ModConfig implements ConfigData {
     public String command = "tp @s $x $y $z $yaw $pitch";
     @ConfigEntry.Gui.Tooltip
     public boolean playSound = true;
-
+    public boolean disableOnDamage = true;
     public boolean showHand = false;
     @ConfigEntry.Gui.EnumHandler(option = ConfigEntry.Gui.EnumHandler.EnumDisplayOption.BUTTON)
     public RenderState showPlayer = RenderState.TRANSPARENT;
